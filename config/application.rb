@@ -1,3 +1,6 @@
+# Heroku requires this to be false
+config.assets.initialize_on_precompile=false
+
 require File.expand_path('../boot', __FILE__)
 
 require 'rails/all'
